@@ -1,10 +1,12 @@
-import './App.css';
+import React from 'react'
+import Main from "./Main.js"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
+    <div>
+      <Main/>
     </div>
   );
 }
 
-export default App;
+export default App

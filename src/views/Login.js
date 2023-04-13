@@ -1,11 +1,13 @@
 import React from 'react'
-import Header from '../components/Login/Header'
+import Header from '../components/Login/Header/Header'
 import "./Login.css"
+import Body from '../components/Login/Boby/Body'
 
 const Login = () => {
   return (
     <div>
-      <Header/>      
+      <Header/>
+      <Body/>
     </div>
   )
 }

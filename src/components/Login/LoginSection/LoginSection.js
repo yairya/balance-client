@@ -1,5 +1,7 @@
 import React from 'react'
 import "./LoginSection.css"
+import LoginInputSection from '../LoginInputSection/LoginInputSection'
+import LoginActionSection from '../LoginActionSection/LoginActionSection'
 
 
 
@@ -7,8 +9,8 @@ import "./LoginSection.css"
 const LoginSection = () => {
   return (
     <div className='login-section'>
-        <input className='login-input' placeholder='Email' type='email'/>
-        <input className='login-input' placeholder='Password' />
+        <LoginInputSection/>
+        <LoginActionSection/>
     </div>
   )
 }

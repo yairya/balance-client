@@ -1,13 +1,13 @@
 import React from 'react'
-import "./Body.css"
+import "./LoginBody.css"
 import LoginSection from '../LoginSection/LoginSection'
 
-const Body = () => {
+function LoginBody() {
   return (
     <div className='login-body'>
-        <LoginSection/>
+      <LoginSection />
     </div>
   )
 }
 
-export default Body
+export default LoginBody

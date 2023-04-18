@@ -1,7 +1,7 @@
 import React from 'react'
-import './Header.css'
+import './LoginHeader.css'
 
-const Header = () => {
+const LoginHeader = () => {
   return (
     <div className='login-header'>
       <h1>BALANCE</h1>
@@ -9,4 +9,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default LoginHeader

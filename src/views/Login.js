@@ -1,13 +1,13 @@
 import React from 'react'
-import Header from '../components/Login/Header/Header'
 import "./Login.css"
-import Body from '../components/Login/Boby/Body'
+import LoginHeader from '../components/Login/LoginHeader/LoginHeader'
+import LoginBody from '../components/Login/LoginBoby/LoginBody'
 
 const Login = () => {
   return (
-    <div>
-      <Header/>
-      <Body/>
+    <div className='Login-page'>
+      <LoginHeader/>
+      <LoginBody/>
     </div>
   )
 }
